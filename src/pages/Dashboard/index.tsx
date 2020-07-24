@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiChevronRight } from 'react-icons/fi';
 
 import { Title, Form, Repositories } from './styles';
 
@@ -15,17 +16,48 @@ const Dashboard: React.FC = () => {
       </Form>
 
       <Repositories>
-        <img
-          src="https://avatars3.githubusercontent.com/u/50460825?s=460&u=8ea2cfd3c918884f0289713384e5d99bf9cb5941&v=4"
-          alt="Rodrigo Lira"
-        />
-        <div>
-          <a href="test"></a>
-          <p>
-            React/Typescript app to list Star Wars characters, planets and
-            spaceships.
-          </p>
-        </div>
+        <a href="test">
+          <img
+            src="https://avatars3.githubusercontent.com/u/50460825?s=460&u=8ea2cfd3c918884f0289713384e5d99bf9cb5941&v=4"
+            alt="Rodrigo Lira"
+          />
+          <div>
+            <strong>rodrigoronin/star-wars-profiles</strong>
+            <p>
+              React/Typescript app to list Star Wars characters, planets and
+              spaceships.
+            </p>
+          </div>
+          <FiChevronRight size={20} />
+        </a>
+        <a href="test">
+          <img
+            src="https://avatars3.githubusercontent.com/u/50460825?s=460&u=8ea2cfd3c918884f0289713384e5d99bf9cb5941&v=4"
+            alt="Rodrigo Lira"
+          />
+          <div>
+            <strong>rodrigoronin/star-wars-profiles</strong>
+            <p>
+              React/Typescript app to list Star Wars characters, planets and
+              spaceships.
+            </p>
+          </div>
+          <FiChevronRight size={20} />
+        </a>
+        <a href="test">
+          <img
+            src="https://avatars3.githubusercontent.com/u/50460825?s=460&u=8ea2cfd3c918884f0289713384e5d99bf9cb5941&v=4"
+            alt="Rodrigo Lira"
+          />
+          <div>
+            <strong>rodrigoronin/star-wars-profiles</strong>
+            <p>
+              React/Typescript app to list Star Wars characters, planets and
+              spaceships.
+            </p>
+          </div>
+          <FiChevronRight size={20} />
+        </a>
       </Repositories>
     </>
   );
